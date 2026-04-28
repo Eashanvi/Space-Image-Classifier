@@ -40,7 +40,7 @@ A deep learning-based web application that classifies astronomical images into *
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/Space-Image-Classifier.git
+git clone https://github.com/Eashanvi/Space-Image-Classifier.git
 
 # Navigate to project folder
 cd Space-Image-Classifier
