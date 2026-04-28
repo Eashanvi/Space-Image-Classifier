@@ -1,0 +1,15 @@
+# Ignore dataset
+dataset/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+__pycache__/
+*.pyc
+
+# Ignore unnecessary notebooks
+Untitled.ipynb
+
+# Ignore Anaconda folders
+anaconda_projects/
