@@ -6,7 +6,7 @@ A deep learning-based web application that classifies astronomical images into *
 
 ## Live Demo
 
-Coming Soon, Deployment in Progress
+Live Demo : https://eashanvi-space-image-classifier.hf.space
 
 ---
 
