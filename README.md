@@ -54,6 +54,15 @@ streamlit run app.py
 
 ---
 
+## 🖥️ App Versions
+
+- **Gradio App (Hugging Face Deployment):** `app.py`
+- **Streamlit App (Local UI):** `streamlit_app.py`
+
+### ▶ Run Streamlit locally:
+```bash
+streamlit run streamlit_app.py
+
 ## Model Details
 
 * Input size: 128 × 128 images
