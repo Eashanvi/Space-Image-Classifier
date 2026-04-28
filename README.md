@@ -1,6 +1,12 @@
 # AI-Powered Space Image Classifier
 
-A deep learning-based web application that classifies astronomical images into **Stars** or **Galaxies** using Convolutional Neural Networks (CNN) and Streamlit.
+A deep learning-based web application that classifies astronomical images into **Stars** or **Galaxies** using Convolutional Neural Networks (CNN).
+
+---
+
+## Live Demo
+
+Coming Soon, Deployment in Progress
 
 ---
 
@@ -8,9 +14,10 @@ A deep learning-based web application that classifies astronomical images into *
 
 * Classifies space images into **Star** or **Galaxy**
 * Deep learning model using CNN
-* Real-time prediction through a web interface
+* Real-time prediction via web interface
 * Displays prediction confidence
 * Clean and interactive UI
+* Supports both **Streamlit (local)** and **Gradio (deployment)**
 
 ---
 
@@ -19,6 +26,7 @@ A deep learning-based web application that classifies astronomical images into *
 * Python
 * TensorFlow / Keras
 * Streamlit
+* Gradio
 * NumPy
 * PIL (Image Processing)
 
@@ -38,30 +46,21 @@ A deep learning-based web application that classifies astronomical images into *
 
 ## How to Run
 
+### Run Streamlit (Local)
+
 ```bash
-# Clone repository
-git clone https://github.com/Eashanvi/Space-Image-Classifier.git
-
-# Navigate to project folder
-cd Space-Image-Classifier
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ---
 
-## 🖥️ App Versions
+### Run Gradio (Local)
 
-- **Gradio App (Hugging Face Deployment):** `app.py`
-- **Streamlit App (Local UI):** `streamlit_app.py`
-
-### ▶ Run Streamlit locally:
 ```bash
-streamlit run streamlit_app.py
+python app.py
+```
+
+---
 
 ## Model Details
 
@@ -85,8 +84,15 @@ streamlit run streamlit_app.py
 
 * Use Transfer Learning (MobileNet / ResNet)
 * Improve dataset balance
-* Deploy on cloud (Streamlit Cloud / Hugging Face Spaces)
 * Add more space object categories
+* Deploy with GPU support
+
+---
+
+## App Versions
+
+* **Gradio App (Hugging Face Deployment):** `app.py`
+* **Streamlit App (Local UI):** `streamlit_app.py`
 
 ---
 
